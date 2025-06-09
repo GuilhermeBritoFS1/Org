@@ -41,7 +41,7 @@ export default function Home() {
       }`}
     >
       <div className="min-h-screen flex flex-col items-center justify-start px-6 py-8">
-        <img src="/logo.png" alt="Logo" className="mb-4 w-50 h-auto" />
+        <Image src="https://res.cloudinary.com/deaaxyebk/image/upload/v1749495500/Logo_qeltyj.png" alt="Logo" className="mb-4 w-50 h-auto" />
         <h1 className="text-6xl font-bold mb-4 text-center text-slate-500">
           OrgaNize
         </h1>
@@ -56,7 +56,7 @@ export default function Home() {
             </h2>
             <div className="relative w-full h-64">
               <Image
-                src="postit2.png"
+                src="https://res.cloudinary.com/deaaxyebk/image/upload/v1749495499/postit2_f8ekjb.png"
                 alt="Post-it"
                 className="absolute inset-0 w-full h-full object-cover shadow-lg"
               />
@@ -76,7 +76,7 @@ export default function Home() {
             </h2>
             <div className="relative w-full h-64">
               <Image
-                src="postit2.png"
+                src="https://res.cloudinary.com/deaaxyebk/image/upload/v1749495499/postit2_f8ekjb.png"
                 alt="Post-it"
                 className="absolute inset-0 w-full h-full object-cover shadow-lg"
               />
@@ -96,7 +96,7 @@ export default function Home() {
             </h2>
             <div className="relative w-full h-64">
               <Image
-                src="postit2.png"
+                src="https://res.cloudinary.com/deaaxyebk/image/upload/v1749495499/postit2_f8ekjb.png"
                 alt="Post-it"
                 className="absolute inset-0 w-full h-full object-cover shadow-lg"
               />

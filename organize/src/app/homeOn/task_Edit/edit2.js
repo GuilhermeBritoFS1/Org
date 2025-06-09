@@ -7,7 +7,7 @@ import {
   SelectGroup,
 } from "@/components/ui/select";
 
-import "@/app/homeOn/task_Edit/edit.css"
+import "./Edit.css";
 
 function Edit2({ formData, setFormData }) {
   return (

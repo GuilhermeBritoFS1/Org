@@ -33,7 +33,7 @@ export default function NotFound() {
           Voltar para página inicial
         </Link>
         <Image
-          src="/postit_error.png"
+          src="https://res.cloudinary.com/deaaxyebk/image/upload/v1749495499/postit_error_dbyust.png"
           alt="Post-it"
           className="mt-8 w-64 h-auto"
         />

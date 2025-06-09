@@ -101,7 +101,7 @@ export default function Create() {
         <div className="bg-gradient-to-r from-amber-400 to-gray-3500 flex flex-col items-center justify-center text-center mx-auto sm:w-full md:w-1/2 rounded-l-lg">
           <div className="flex flex-col justify-center items-center px-4 py-6">
             <Image
-              src="/logo.png"
+              src="https://res.cloudinary.com/deaaxyebk/image/upload/v1749495500/Logo_qeltyj.png"
               alt="Logo OrgaNize"
               className="mb-4 w-50 h-auto"
             />

@@ -1,11 +1,11 @@
 "use client"
 
 import React, { useState } from "react";
-import Edit1 from "./edit1";
-import Edit2 from "./edit2.js";
-import Edit3 from "./edit3";
+import Edit1 from "./Edit1";
+import Edit2 from "./Edit2.js";
+import Edit3 from "./Edit3";
 
-import "@/app/homeOn/task_Edit/edit.css"
+import "./Edit.css";
 
 function Form() {
   const [page, setPage] = useState(0);

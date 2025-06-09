@@ -124,7 +124,7 @@ export default function TaskAssignment() {
       }`}
     >
       <div className="flex flex-col items-center text-center w-full max-w-6xl p-4">
-        <Image src="/logo.png" alt="Logo" className="mb-4 w-32 sm:w-40 h-auto" />
+        <Image src="https://res.cloudinary.com/deaaxyebk/image/upload/v1749495500/Logo_qeltyj.png" alt="Logo" className="mb-4 w-32 sm:w-40 h-auto" />
         <h1 className="text-3xl sm:text-5xl font-bold mb-4 text-slate-500">
           Atribuição de Tarefas
         </h1>

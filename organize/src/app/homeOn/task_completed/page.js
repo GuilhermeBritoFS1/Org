@@ -58,7 +58,7 @@ export default function TaskCompleted() {
       }`}
     >
       <div className="flex flex-col items-center text-center w-full max-w-6xl p-4">
-        <Image src="/logo.png" alt="Logo" className="mb-4 w-32 sm:w-40 h-auto" />
+        <Image src="https://res.cloudinary.com/deaaxyebk/image/upload/v1749495500/Logo_qeltyj.png" alt="Logo" className="mb-4 w-32 sm:w-40 h-auto"/>
         <h1 className="text-3xl sm:text-5xl font-bold mb-6  text-slate-500">
           Tarefas Concluídas
         </h1>
@@ -78,7 +78,7 @@ export default function TaskCompleted() {
             >
               <div className="relative w-full h-full">
                 <Image
-                  src="/postit2.png"
+                  src="https://res.cloudinary.com/deaaxyebk/image/upload/v1749495499/postit2_f8ekjb.png"
                   alt="Post-it"
                   className="w-full h-full object-cover shadow-lg rounded-lg"
                 />

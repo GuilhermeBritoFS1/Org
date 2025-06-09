@@ -20,6 +20,8 @@ import {
   TooltipContent,
 } from "../ui/tooltip";
 import { useEffect, useState } from "react";
+import Image from 'next/image';
+
 
 function isAuthenticated() {
   return localStorage.getItem("isAuthenticated") == "true";
@@ -48,12 +50,12 @@ export function Sidebar() {
               href="/"
               className="flex h-10 w-10 bg-primary rounded-full text-lg items-center justify-center text-primary-foreground md:text-base gap-2"
             >
-              <img
-                src="/logo.png"
+              <Image
+                src="https://res.cloudinary.com/deaaxyebk/image/upload/v1749495499/postit2_f8ekjb.png"
                 alt="Logo do Projeto"
                 className="h-10 w-10"
               />
-              <span className="sr-only">Logo do Projeto</span>
+              <span className="sr-only">Logo do Projeto Organize</span>
             </Link>
           </TooltipProvider>
 

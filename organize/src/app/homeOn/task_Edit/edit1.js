@@ -2,7 +2,7 @@ import React from "react";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 
-import "@/app/homeOn/task_Edit/edit.css"
+import "./Edit.css";
 
 function Edit1({ formData, setFormData }) {
   return (

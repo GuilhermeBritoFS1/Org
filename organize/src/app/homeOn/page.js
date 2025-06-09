@@ -42,7 +42,7 @@ export default function HomeOn() {
       }`}
     >
       <div className="flex flex-col items-center text-center w-full max-w-4xl p-4">
-        <Image src="/logo.png" alt="Logo" className="mb-4 w-48 h-auto" />
+        <Image src="https://res.cloudinary.com/deaaxyebk/image/upload/v1749495500/Logo_qeltyj.png" alt="Logo" className="mb-4 w-48 h-auto" />
         <h1 className="text-6xl font-bold mb-4 text-slate-500">OrgaNize</h1>
         <p className="text-3xl font-bold mb-4 text-slate-500">
           Organize seu dia do jeito mais nice!
@@ -57,7 +57,7 @@ export default function HomeOn() {
             >
               <div className="relative w-full h-full">
                 <Image
-                  src="postit2.png"
+                  src="https://res.cloudinary.com/deaaxyebk/image/upload/v1749495499/postit2_f8ekjb.png"
                   alt="Post-it"
                   className="w-full h-full object-cover shadow-lg rounded-lg"
                 />

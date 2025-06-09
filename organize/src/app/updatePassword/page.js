@@ -69,7 +69,7 @@ export default function UpdatePassword() {
             : "bg-amber-100 text-black"
         } flex flex-col items-center justify-center text-center`}
       >
-        <img src="/logo.png" alt="Logo" className="mb-4 w-40 h-auto" />
+        <Image src="https://res.cloudinary.com/deaaxyebk/image/upload/v1749495500/Logo_qeltyj.png" alt="Logo" className="mb-4 w-40 h-auto" />
         <h1 className="text-4xl font-bold mb-2 text-slate-500">
           Atualizar Senha
         </h1>
@@ -79,7 +79,7 @@ export default function UpdatePassword() {
 
         <div className="w-full max-w-sm p-8 rounded-lg shadow-lg relative">
           <Image
-            src="/postit2.png"
+            src="https://res.cloudinary.com/deaaxyebk/image/upload/v1749495499/postit2_f8ekjb.png"
             alt="Post-it"
             className={`w-full h-full object-cover shadow-lg absolute top-0 left-0 rounded-lg ${
               theme === "dark" ? "opacity-90" : "opacity-70"

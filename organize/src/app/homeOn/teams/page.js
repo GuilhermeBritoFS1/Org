@@ -114,7 +114,7 @@ export default function Teams() {
             >
               <div className="relative w-full h-full">
                 <Image
-                  src="/postit2.png"
+                  src="https://res.cloudinary.com/deaaxyebk/image/upload/v1749495499/postit2_f8ekjb.png"
                   alt="Post-it"
                   className="w-full h-full object-cover shadow-lg rounded-lg"
                 />

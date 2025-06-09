@@ -22,7 +22,7 @@ export default function AboutClient() {
           : "bg-amber-100 text-black"
       }`}
     >
-      <Image src="/logo.png" alt="Logo" className="mb-4 w-48 h-auto" />
+      <Image src="https://res.cloudinary.com/deaaxyebk/image/upload/v1749495500/Logo_qeltyj.png" alt="Logo" className="mb-4 w-48 h-auto"/>
       <h1 className="text-6xl font-bold mb-4  text-slate-500">OrgaNize</h1>
       <p className="text-3xl font-bold mb-4  text-slate-500">
         Organize seu dia do jeito mais nice!
@@ -31,7 +31,7 @@ export default function AboutClient() {
 
       <div className="relative max-w-xl p-8 rounded-lg shadow-lg">
         <Image
-          src="/postit.png"
+          src="https://res.cloudinary.com/deaaxyebk/image/upload/v1749495500/postit_wfpcu0.png"
           alt="Post-it"
           className="absolute top-0 left-0 w-full h-full object-cover opacity-90 rounded-lg"
         />
