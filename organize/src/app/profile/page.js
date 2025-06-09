@@ -8,6 +8,8 @@ import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { Card } from "@/components/ui/card";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
+import Image from 'next/image';
+
 
 export default function ProfilePage() {
   const { theme } = useTheme();
@@ -110,7 +112,7 @@ export default function ProfilePage() {
             {/* Foto e Upload */}
             <div className="h-28 w-28 rounded-full bg-gray-300 overflow-hidden flex items-center justify-center">
               {imagePreview ? (
-                <img
+                <Image
                   src={imagePreview}
                   alt="Preview"
                   className="object-cover h-full w-full"

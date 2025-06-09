@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import { useTheme } from "next-themes";
 import { api } from "../../../Services/page";
 import { Formik, FieldArray } from "formik";
@@ -112,7 +113,7 @@ export default function Teams() {
               className="relative w-full aspect-square flex items-center justify-center"
             >
               <div className="relative w-full h-full">
-                <img
+                <Image
                   src="/postit2.png"
                   alt="Post-it"
                   className="w-full h-full object-cover shadow-lg rounded-lg"

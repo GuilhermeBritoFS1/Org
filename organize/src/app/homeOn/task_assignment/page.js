@@ -5,6 +5,7 @@ import { useTheme } from "next-themes";
 import Link from "next/link";
 import Select from "react-select";
 import { api } from "../../../Services/page";
+import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import {
   FormControl,
@@ -117,11 +118,13 @@ export default function TaskAssignment() {
   return (
     <main
       className={`sm:ml-14 p-4 flex flex-col items-center justify-start min-h-screen ${
-        theme === "dark" ? "bg-gray-900 text-gray-600" : "bg-amber-100 text-black"
+        theme === "dark"
+          ? "bg-gray-900 text-gray-600"
+          : "bg-amber-100 text-black"
       }`}
     >
       <div className="flex flex-col items-center text-center w-full max-w-6xl p-4">
-        <img src="/logo.png" alt="Logo" className="mb-4 w-32 sm:w-40 h-auto" />
+        <Image src="/logo.png" alt="Logo" className="mb-4 w-32 sm:w-40 h-auto" />
         <h1 className="text-3xl sm:text-5xl font-bold mb-4 text-slate-500">
           Atribuição de Tarefas
         </h1>
@@ -134,7 +137,9 @@ export default function TaskAssignment() {
             >
               <div
                 className={`rounded-xl shadow-lg p-4 flex flex-col gap-3 border-2 border-yellow-300 ${
-                  theme === "dark" ? "bg-yellow-600/80 text-black" : "bg-yellow-200"
+                  theme === "dark"
+                    ? "bg-yellow-600/80 text-black"
+                    : "bg-yellow-200"
                 }`}
                 style={{
                   backgroundImage: `url('/postit2.png')`,
@@ -180,7 +185,10 @@ export default function TaskAssignment() {
                 </FormControl>
 
                 <div className="flex flex-row justify-evenly items-center pt-2">
-                  <Button variant="secondary" onClick={() => assignTeam(task._id)}>
+                  <Button
+                    variant="secondary"
+                    onClick={() => assignTeam(task._id)}
+                  >
                     Atribuir
                   </Button>
                   <Button variant="secondary">

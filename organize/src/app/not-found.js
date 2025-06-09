@@ -1,12 +1,9 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
 
-export const metadata = {
-  title: "OrgaNice",
-  description: "OrgaNize - Organize seu dia do jeito mais nice!",
-};
 
 export default function NotFound() {
   const { theme } = useTheme();
@@ -35,7 +32,7 @@ export default function NotFound() {
         >
           Voltar para página inicial
         </Link>
-        <img
+        <Image
           src="/postit_error.png"
           alt="Post-it"
           className="mt-8 w-64 h-auto"

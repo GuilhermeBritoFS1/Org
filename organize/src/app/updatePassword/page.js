@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
+import Image from 'next/image';
 import { useRouter } from "next/navigation";
 
 export default function UpdatePassword() {
@@ -77,7 +78,7 @@ export default function UpdatePassword() {
         </p>
 
         <div className="w-full max-w-sm p-8 rounded-lg shadow-lg relative">
-          <img
+          <Image
             src="/postit2.png"
             alt="Post-it"
             className={`w-full h-full object-cover shadow-lg absolute top-0 left-0 rounded-lg ${

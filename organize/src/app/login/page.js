@@ -6,6 +6,8 @@ import { api } from "../../Services/page";
 import Visibility from "@mui/icons-material/Visibility";
 import VisibilityOff from "@mui/icons-material/VisibilityOff";
 import { useTheme } from "next-themes";
+import Image from 'next/image';
+
 
 export default function Login() {
   const [email, setEmail] = useState("");
@@ -67,7 +69,7 @@ export default function Login() {
         </p>
 
         <div className="w-full max-w-sm p-8 rounded-lg shadow-lg relative">
-          <img
+          <Image
             src="postit2.png"
             alt="Post-it"
             className={`w-full h-full object-cover shadow-lg absolute top-0 left-0 rounded-lg ${

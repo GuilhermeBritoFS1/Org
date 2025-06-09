@@ -3,6 +3,8 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
+import Image from 'next/image';
+
 
 function isAuthenticated() {
   return localStorage.getItem("isAuthenticated") == "true";
@@ -53,7 +55,7 @@ export default function Home() {
               Empresas e Organizações
             </h2>
             <div className="relative w-full h-64">
-              <img
+              <Image
                 src="postit2.png"
                 alt="Post-it"
                 className="absolute inset-0 w-full h-full object-cover shadow-lg"
@@ -73,7 +75,7 @@ export default function Home() {
               Gestores e Líderes
             </h2>
             <div className="relative w-full h-64">
-              <img
+              <Image
                 src="postit2.png"
                 alt="Post-it"
                 className="absolute inset-0 w-full h-full object-cover shadow-lg"
@@ -93,7 +95,7 @@ export default function Home() {
               Profissionais Individuais
             </h2>
             <div className="relative w-full h-64">
-              <img
+              <Image
                 src="postit2.png"
                 alt="Post-it"
                 className="absolute inset-0 w-full h-full object-cover shadow-lg"

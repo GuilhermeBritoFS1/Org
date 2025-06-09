@@ -4,7 +4,7 @@ import { Textarea } from "@/components/ui/textarea";
 
 import "@/app/homeOn/task_Edit/edit.css"
 
-function edit1({ formData, setFormData }) {
+function Edit1({ formData, setFormData }) {
   return (
     <div className="sign-up-container flex flex-col gap-5">
        <Input
@@ -21,4 +21,4 @@ function edit1({ formData, setFormData }) {
   );
 }
 
-export default edit1;
+export default Edit1;

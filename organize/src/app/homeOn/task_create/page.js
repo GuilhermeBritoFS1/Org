@@ -16,7 +16,6 @@ import SelectMulti, { StylesConfig } from "react-select";
 import chroma from "chroma-js";
 
 import { useTheme } from "next-themes";
-import styles from "@/app/homeOn/task_create/taskCreate.module.css";
 
 // Services
 import { api } from "../../../Services/page";

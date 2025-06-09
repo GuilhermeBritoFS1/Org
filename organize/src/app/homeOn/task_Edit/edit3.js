@@ -7,7 +7,7 @@ import "react-datepicker/dist/react-datepicker.css";
 
 import "@/app/homeOn/task_Edit/edit.css";
 
-function edit3({ formData, setFormData }) {
+function Edit3({ formData, setFormData }) {
   const [startDate, setStartDate] = useState(new Date());
 
   return (
@@ -24,4 +24,4 @@ function edit3({ formData, setFormData }) {
   );
 }
 
-export default edit3;
+export default Edit3;

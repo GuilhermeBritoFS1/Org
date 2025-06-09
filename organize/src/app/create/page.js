@@ -14,6 +14,8 @@ import InputAdornment from "@mui/material/InputAdornment";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
 import { useTheme } from "next-themes";
+import Image from 'next/image';
+
 
 export default function Create() {
   const router = useRouter();
@@ -98,7 +100,7 @@ export default function Create() {
       <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row w-full md:w-4/5 lg:w-3/4 h-auto m-auto">
         <div className="bg-gradient-to-r from-amber-400 to-gray-3500 flex flex-col items-center justify-center text-center mx-auto sm:w-full md:w-1/2 rounded-l-lg">
           <div className="flex flex-col justify-center items-center px-4 py-6">
-            <img
+            <Image
               src="/logo.png"
               alt="Logo OrgaNize"
               className="mb-4 w-50 h-auto"

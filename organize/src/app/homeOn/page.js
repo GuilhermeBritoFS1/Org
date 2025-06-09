@@ -2,6 +2,8 @@
 
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
+import Image from 'next/image';
+
 
 export default function HomeOn() {
   const { theme } = useTheme();
@@ -40,7 +42,7 @@ export default function HomeOn() {
       }`}
     >
       <div className="flex flex-col items-center text-center w-full max-w-4xl p-4">
-        <img src="/logo.png" alt="Logo" className="mb-4 w-48 h-auto" />
+        <Image src="/logo.png" alt="Logo" className="mb-4 w-48 h-auto" />
         <h1 className="text-6xl font-bold mb-4 text-slate-500">OrgaNize</h1>
         <p className="text-3xl font-bold mb-4 text-slate-500">
           Organize seu dia do jeito mais nice!
@@ -54,7 +56,7 @@ export default function HomeOn() {
               className="relative w-48 h-48 md:w-56 md:h-56 flex items-center justify-center"
             >
               <div className="relative w-full h-full">
-                <img
+                <Image
                   src="postit2.png"
                   alt="Post-it"
                   className="w-full h-full object-cover shadow-lg rounded-lg"

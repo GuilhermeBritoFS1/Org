@@ -1,5 +1,7 @@
 "use client";
 
+import Image from 'next/image';
+
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
 import { api } from "../../../Services/page"; // ajuste o path conforme seu projeto
@@ -56,7 +58,7 @@ export default function TaskCompleted() {
       }`}
     >
       <div className="flex flex-col items-center text-center w-full max-w-6xl p-4">
-        <img src="/logo.png" alt="Logo" className="mb-4 w-32 sm:w-40 h-auto" />
+        <Image src="/logo.png" alt="Logo" className="mb-4 w-32 sm:w-40 h-auto" />
         <h1 className="text-3xl sm:text-5xl font-bold mb-6  text-slate-500">
           Tarefas Concluídas
         </h1>
@@ -75,7 +77,7 @@ export default function TaskCompleted() {
               className="relative w-full aspect-square flex items-center justify-center cursor-pointer"
             >
               <div className="relative w-full h-full">
-                <img
+                <Image
                   src="/postit2.png"
                   alt="Post-it"
                   className="w-full h-full object-cover shadow-lg rounded-lg"
