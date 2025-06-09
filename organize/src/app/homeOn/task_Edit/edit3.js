@@ -5,9 +5,9 @@ import { useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 
-import "./Edit.css";
+import "./edit.css";
 
-function Edit3({ formData, setFormData }) {
+function edit3({ formData, setFormData }) {
   const [startDate, setStartDate] = useState(new Date());
 
   return (
@@ -24,4 +24,4 @@ function Edit3({ formData, setFormData }) {
   );
 }
 
-export default Edit3;
+export default edit3;
