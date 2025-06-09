@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:3000/organize",
+  baseURL: "/api", // agora as requisições vão para o backend via proxy do Vercel
 });
 
 // Adiciona o token em cada requisição automaticamente

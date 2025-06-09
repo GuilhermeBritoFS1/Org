@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "organize/next.config.js", "use": "@vercel/next" },
+    { "src": "backend/api/index.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "backend/app.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "organize/$1"
+    }
+  ]
+}
