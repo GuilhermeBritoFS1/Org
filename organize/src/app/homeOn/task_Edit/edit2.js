@@ -7,9 +7,9 @@ import {
   SelectGroup,
 } from "@/components/ui/select";
 
-import "./edit.css";
+import "./Edit.css";
 
-function edit2({ formData, setFormData }) {
+function Edit2({ formData, setFormData }) {
   return (
     <div className="personal-info-container">
       <Select className="personal-info-container input">
@@ -34,4 +34,4 @@ function edit2({ formData, setFormData }) {
   );
 }
 
-export default edit2;
+export default Edit2;

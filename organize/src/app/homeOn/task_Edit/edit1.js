@@ -2,9 +2,9 @@ import React from "react";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 
-import "./edit.css";
+import "./Edit.css";
 
-function edit1({ formData, setFormData }) {
+function Edit1({ formData, setFormData }) {
   return (
     <div className="sign-up-container flex flex-col gap-5">
        <Input
@@ -21,4 +21,4 @@ function edit1({ formData, setFormData }) {
   );
 }
 
-export default edit1;
+export default Edit1;
